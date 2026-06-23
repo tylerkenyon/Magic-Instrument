@@ -81,11 +81,6 @@ If `scipy` is installed and audio rendering is fine, it will write a WAV file al
 
 Playback uses the latest recording inside the app when you press `P`.
 
-## Notes on Piano Sound
-
-This project ships with a generated piano-like sound instead of external samples, so setup stays simple. The piano engine uses a fast attack with decaying harmonics to approximate a plucked/struck keyboard feel.
-
-If you want a more realistic piano later, the easiest upgrade path is to swap the piano engine for sample playback or MIDI + SoundFont rendering.
 
 ## Troubleshooting
 
